@@ -1,4 +1,4 @@
-# Genetic Architecture and Clinical Consequences of Adaptive Immune Cell Abundance
+# Human genetic variation tunes context-specific lymphocyte development
 
 ## Overview
 
@@ -126,7 +126,7 @@ Additional package requirements are listed within individual analysis directorie
 
 If you use code from this repository, please cite:
 
-Manuscript citation to be added upon publication.
+[TBD]
 
 ---
 
