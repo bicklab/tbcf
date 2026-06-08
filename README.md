@@ -32,7 +32,7 @@ We performed genome-wide association studies, fine-mapping, functional annotatio
 - eQTL integration
 - PromoterAI annotation
 
-Code : https://github.com/bicklab/tbcf/tree/main/scdata_integ
+Code: https://github.com/bicklab/tbcf/tree/main/scdata_integ
 
 ### 3. Rare Variant Analyses
 
@@ -52,7 +52,8 @@ Code : https://github.com/bicklab/tbcf/tree/main/scdata_integ
 - Polygenic risk score analyses
 - Mendelian randomization
 - Gene prioritization and therapeutic target evaluation
-
+- BMI analysis 
+  
 ### 6. Functional Validation
 
 - EBF1 enhancer reporter assays
