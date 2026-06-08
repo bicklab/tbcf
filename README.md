@@ -6,8 +6,6 @@ Adaptive immune cell abundance varies substantially between individuals and play
 
 - T-cell fraction (TCF)
 - B-cell fraction (BCF)
-- T-cell count (TCC)
-- B-cell count (BCC)
 
 We performed genome-wide association studies, fine-mapping, functional annotation, rare variant analyses, longitudinal modeling, phenome-wide association studies, Mendelian randomization, and experimental validation to characterize the genetic architecture and clinical consequences of adaptive immune cell abundance.
 
