@@ -18,6 +18,52 @@ We performed genome-wide association studies, fine-mapping, functional annotatio
 - Genome-wide association study
 - Fixed-effects meta-analysis of UK Biobank and All of Us
 
+Regenie v.3.3 was ran on the All of Us researcher workbench, UK Biobank research analysis platform, and BioVU Terra.bio platform.
+
+Step 1 options for Regenie v.3.3:
+
+    --step 1 \
+    --bed ukb_imp_step1 \
+    --phenoFile tcf_bcf.txt \
+    --bsize 1000 \
+    --use-relative-path \
+    --extract /home/dnanexus/PACER_UKB_GWAS_step1QC_plink_mac5000_thinned.snplist \
+    --covarFile tcf_bcf.txt \
+    --bt \
+    --phenoColList tcf \
+    --covarColList age,age2,PC1,PC2,PC3,PC4,PC5,PC6,PC7,PC8,PC9,PC10 \
+    --catCovarList sex,smoking \
+    --out tcf_ukb
+
+
+After Step 1 was ran with 500,000 variants, Step 2 was ran separately by chromosome in parallel. 
+
+Step 2 options for Regenie v.3.3 (example of chr1):
+
+    --step 2 \
+    --bgen ukb22828_c14_b0_v3.bgen \
+    --phenoFile tcf_bcf.txt \
+    --bsize 200 \
+    --pThresh 0.05 \
+    --test additive \
+    --pred tcf_bcf.list \
+    --gz \
+    --sample ukb22828_c14_b0_v3.sample \
+    --extract /home/dnanexus/imputed_UKB_GWAS_step2QC_plink_maf0.001_geno0.1_chr14.snplist \
+    --covarFile tcf_bcf.txt \
+    --bt \
+    --firth \
+    --approx \
+    --firth-se \
+    --phenoColList mca \
+    --covarColList age,age2,PC1,PC2,PC3,PC4,PC5,PC6,PC7,PC8,PC9,PC10 \
+    --catCovarList sex,smoking \
+    --ref-first \
+    --htp ukb22828_c14_b0_v3 \
+    --out tcf_bcf
+
+Meta-analysis was performed with the METAL version from 2011-03-25 using the standard-error analysis scheme. METAL script available [here](https://github.com/bicklab/mca-1m/blob/main/YP-trans-mca-gwas-metal-script.txt).
+
 ### 2. Fine-Mapping and Functional Annotation
 
 - Statistical fine-mapping
