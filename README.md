@@ -28,7 +28,7 @@ Step 1 options for Regenie v.3.3:
     --covarFile tcf_bcf.txt \
     --phenoColList tcf \
     --covarColList age,age2,PC1,PC2,PC3,PC4,PC5,PC6,PC7,PC8,PC9,PC10 \
-    --catCovarList sex,smoking \
+    --catCovarList sex \
     --extract /home/dnanexus/PACER_UKB_GWAS_step1QC_plink_mac5000_thinned.snplist \
     --bsize 1000 \
     --use-relative-path \
@@ -45,7 +45,7 @@ Step 2 options for Regenie v.3.3 (example of chr1):
     --covarFile tcf_bcf.txt \
     --phenoColList tcf \
     --covarColList age,age2,PC1,PC2,PC3,PC4,PC5,PC6,PC7,PC8,PC9,PC10 \
-    --catCovarList sex,smoking \
+    --catCovarList sex \
     --pred tcf_ukb_pred.list \
     --extract /home/dnanexus/imputed_UKB_GWAS_step2QC_plink_maf0.001_geno0.1_chr14.snplist \
     --bsize 200 \
