@@ -61,9 +61,7 @@ Meta-analysis was performed with the METAL version from 2011-03-25 using the sta
 - Statistical fine-mapping
 - SCAVENGE analysis
 - Variant-to-gene mapping
-- Single-cell chromatin accessibility integration
-- eQTL integration
-- PromoterAI annotation
+- IEI enrichment
 
 Code: https://github.com/bicklab/tbcf/tree/main/scdata_integ
 
