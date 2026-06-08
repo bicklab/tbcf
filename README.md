@@ -48,11 +48,11 @@ Code: https://github.com/bicklab/tbcf/tree/main/scdata_integ
 
 ### 5. Clinical Consequence Analyses
 
-- Time-to-event PheWAS
-- Polygenic risk score analyses
+- Time-to-event PheWAS: [KZ_PheWAS_TCellF_UKB.r](https://github.com/bicklab/tbcf/tree/main/KZ_PheWAS_TCellF_UKB.r)
+- Polygenic risk score analyses: [PheWAS_TCF_BCF_PRS.r](https://github.com/bicklab/tbcf/tree/main/PheWAS_TCF_BCF_PRS.r)
 - Mendelian randomization
 - Gene prioritization and therapeutic target evaluation
-- BMI analysis 
+- BMI analysis: [TCF_obesity_BMI.r](https://github.com/bicklab/tbcf/tree/main/TCF_obesity_BMI.r) 
   
 ### 6. Functional Validation
 
