@@ -15,10 +15,7 @@ We performed genome-wide association studies, fine-mapping, functional annotatio
 
 ### 1. Common Variant Association Analyses
 
-- TCF GWAS
-- BCF GWAS
-- TCC GWAS
-- BCC GWAS
+- Genome-wide association study
 - Fixed-effects meta-analysis of UK Biobank and All of Us
 
 ### 2. Fine-Mapping and Functional Annotation
@@ -37,6 +34,8 @@ Code: https://github.com/bicklab/tbcf/tree/main/scdata_integ
 - SKAT-O burden testing
 - COAST allelic series analyses
 
+Code: https://github.com/bicklab/tbcf/tree/main/TCF_BCF_rare_variant_analysis_ukb.py
+
 ### 4. Population-Specific Genetic Architecture
 
 - Ancestry-stratified GWAS
@@ -47,6 +46,7 @@ Code: https://github.com/bicklab/tbcf/tree/main/scdata_integ
 ### 5. Clinical Consequence Analyses
 
 - Time-to-event PheWAS: [KZ_PheWAS_TCellF_UKB.r](https://github.com/bicklab/tbcf/tree/main/KZ_PheWAS_TCellF_UKB.r)
+- Effect comparison: [compare_phewas_effects_tcf_bcf_lywbc.py](https://github.com/bicklab/tbcf/tree/main/compare_phewas_effects_tcf_bcf_lywbc.py)
 - Polygenic risk score analyses: [PheWAS_TCF_BCF_PRS.r](https://github.com/bicklab/tbcf/tree/main/PheWAS_TCF_BCF_PRS.r)
 - Mendelian randomization
 - Gene prioritization and therapeutic target evaluation
