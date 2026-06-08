@@ -54,7 +54,7 @@ Step 2 options for Regenie v.3.3 (example of chr1):
     --gz \
     --out tcf_ukb_chr14
 
-Meta-analysis was performed with the METAL version from 2011-03-25 using the standard-error analysis scheme. METAL script available [here](https://github.com/bicklab/mca-1m/blob/main/YP-trans-mca-gwas-metal-script.txt).
+Meta-analysis was performed with the METAL version from 2011-03-25 using the standard-error analysis scheme.
 
 ### 2. Fine-Mapping and Functional Annotation
 
