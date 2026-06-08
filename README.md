@@ -59,12 +59,6 @@ We performed genome-wide association studies, fine-mapping, functional annotatio
 
 ---
 
-## Repository Structure
-
-text ├── GWAS/ ├── FineMapping/ ├── VariantToGene/ ├── RareVariants/ ├── PheWAS/ ├── PRS/ ├── MendelianRandomization/ ├── FunctionalValidation/ ├── Figures/ └── SupplementaryTables/ 
-
----
-
 ## Data Availability
 
 Individual-level participant data are not included in this repository.
