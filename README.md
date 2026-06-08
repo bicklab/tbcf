@@ -68,8 +68,8 @@ Individual-level participant data are not included in this repository.
 
 Access to the underlying datasets requires approval through:
 
-- UK Biobank
-- All of Us Research Program
+- [UK Biobank DNA Nexus Research Analysis Platform](https://ukbiobank.dnanexus.com)
+- [All of Us Research Workbench](https://workbench.researchallofus.org/)
 - Vanderbilt BioVU (for validation analyses)
 
 Summary statistics and derived results associated with the manuscript will be made available upon publication.
