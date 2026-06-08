@@ -32,6 +32,8 @@ We performed genome-wide association studies, fine-mapping, functional annotatio
 - eQTL integration
 - PromoterAI annotation
 
+Code : https://github.com/bicklab/tbcf/tree/main/scdata_integ
+
 ### 3. Rare Variant Analyses
 
 - SKAT-O burden testing
