@@ -22,38 +22,37 @@ Regenie v.3.3 was ran on the All of Us researcher workbench, UK Biobank research
 
 Step 1 options for Regenie v.3.3:
 
-regenie \
-  --step 1 \
-  --bed ukb_imp_step1 \
-  --phenoFile tcf_bcf.txt \
-  --covarFile tcf_bcf.txt \
-  --phenoColList tcf \
-  --covarColList age,age2,PC1,PC2,PC3,PC4,PC5,PC6,PC7,PC8,PC9,PC10 \
-  --catCovarList sex,smoking \
-  --extract /home/dnanexus/PACER_UKB_GWAS_step1QC_plink_mac5000_thinned.snplist \
-  --bsize 1000 \
-  --use-relative-path \
-  --out tcf_ukb
+    --step 1 \
+    --bed ukb_imp_step1 \
+    --phenoFile tcf_bcf.txt \
+    --covarFile tcf_bcf.txt \
+    --phenoColList tcf \
+    --covarColList age,age2,PC1,PC2,PC3,PC4,PC5,PC6,PC7,PC8,PC9,PC10 \
+    --catCovarList sex,smoking \
+    --extract /home/dnanexus/PACER_UKB_GWAS_step1QC_plink_mac5000_thinned.snplist \
+    --bsize 1000 \
+    --use-relative-path \
+    --out tcf_ukb
 
 After Step 1 was ran with 500,000 variants, Step 2 was ran separately by chromosome in parallel. 
 
 Step 2 options for Regenie v.3.3 (example of chr1):
 
-  --step 2 \
-  --bgen ukb22828_c14_b0_v3.bgen \
-  --sample ukb22828_c14_b0_v3.sample \
-  --phenoFile tcf_bcf.txt \
-  --covarFile tcf_bcf.txt \
-  --phenoColList tcf \
-  --covarColList age,age2,PC1,PC2,PC3,PC4,PC5,PC6,PC7,PC8,PC9,PC10 \
-  --catCovarList sex,smoking \
-  --pred tcf_ukb_pred.list \
-  --extract /home/dnanexus/imputed_UKB_GWAS_step2QC_plink_maf0.001_geno0.1_chr14.snplist \
-  --bsize 200 \
-  --test additive \
-  --ref-first \
-  --gz \
-  --out tcf_ukb_chr14
+    --step 2 \
+    --bgen ukb22828_c14_b0_v3.bgen \
+    --sample ukb22828_c14_b0_v3.sample \
+    --phenoFile tcf_bcf.txt \
+    --covarFile tcf_bcf.txt \
+    --phenoColList tcf \
+    --covarColList age,age2,PC1,PC2,PC3,PC4,PC5,PC6,PC7,PC8,PC9,PC10 \
+    --catCovarList sex,smoking \
+    --pred tcf_ukb_pred.list \
+    --extract /home/dnanexus/imputed_UKB_GWAS_step2QC_plink_maf0.001_geno0.1_chr14.snplist \
+    --bsize 200 \
+    --test additive \
+    --ref-first \
+    --gz \
+    --out tcf_ukb_chr14
 
 Meta-analysis was performed with the METAL version from 2011-03-25 using the standard-error analysis scheme. METAL script available [here](https://github.com/bicklab/mca-1m/blob/main/YP-trans-mca-gwas-metal-script.txt).
 
@@ -75,12 +74,11 @@ Code: https://github.com/bicklab/tbcf/tree/main/scdata_integ
 
 Code: https://github.com/bicklab/tbcf/tree/main/TCF_BCF_rare_variant_analysis_ukb.py
 
-### 4. Population-Specific Genetic Architecture
+### 4. Functional Validation
 
-- Ancestry-stratified GWAS
-- Age-stratified GWAS
-- Sex-stratified GWAS
-- Longitudinal lymphocyte decay analyses
+- EBF1 enhancer reporter assays
+- CRISPR interference
+- Human CD34+ HSPC editing and B-cell differentiation experiments
 
 ### 5. Clinical Consequence Analyses
 
@@ -91,12 +89,6 @@ Code: https://github.com/bicklab/tbcf/tree/main/TCF_BCF_rare_variant_analysis_uk
 - Gene prioritization and therapeutic target evaluation
 - BMI analysis: [TCF_obesity_BMI.r](https://github.com/bicklab/tbcf/tree/main/TCF_obesity_BMI.r) 
   
-### 6. Functional Validation
-
-- EBF1 enhancer reporter assays
-- CRISPR interference
-- Human CD34+ HSPC editing and B-cell differentiation experiments
-
 ---
 
 ## Data Availability
