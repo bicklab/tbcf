@@ -83,8 +83,8 @@ Code: https://github.com/bicklab/tbcf/tree/main/TCF_BCF_rare_variant_analysis_uk
 - Time-to-event PheWAS: [KZ_PheWAS_TCellF_UKB.r](https://github.com/bicklab/tbcf/tree/main/KZ_PheWAS_TCellF_UKB.r)
 - Effect comparison: [compare_phewas_effects_tcf_bcf_lywbc.py](https://github.com/bicklab/tbcf/tree/main/compare_phewas_effects_tcf_bcf_lywbc.py)
 - Polygenic risk score analyses: [PheWAS_TCF_BCF_PRS.r](https://github.com/bicklab/tbcf/tree/main/PheWAS_TCF_BCF_PRS.r)
-- Mendelian randomization
-- Gene prioritization and therapeutic target evaluation
+- Mendelian randomization: [mr_coloc.R](https://github.com/bicklab/tbcf/tree/main/mr_coloc.R)
+- Gene prioritization and therapeutic target evaluation: [mr_coloc.R](https://github.com/bicklab/tbcf/tree/main/mr_coloc.R)
 - BMI analysis: [KZ_TCF_obesity_BMI.r](https://github.com/bicklab/tbcf/tree/main/KZ_TCF_obesity_BMI.r) 
   
 ---
